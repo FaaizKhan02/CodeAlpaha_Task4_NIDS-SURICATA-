@@ -1,0 +1,16 @@
+📁 Project Structure (to be zipped)
+suricata-ids-project/
+├── README.md              # Full setup instructions
+├── config/
+│   └── suricata.yaml      # Sample Suricata configuration
+├── rules/
+│   └── custom.rules       # Custom IDS rules
+├── logs/
+│   ├── eve.json           # Example JSON log file (sample data)
+│   └── fast.log           # Example fast.log file (sample data)
+├── scripts/
+│   ├── start_suricata.sh  # Bash script to start Suricata
+│   └── log_monitor.py     # Python script to parse and display IDS alerts
+└── screenshots/
+    └── example_output.png # Placeholder or real screenshot of Suricata logs
+
